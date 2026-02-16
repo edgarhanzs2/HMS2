@@ -1,0 +1,96 @@
+##PROMPT TO GENERATE WEB APP#
+
+GLM-4.7
+
+Share Session
+
+Ask : show me prompt to create creative website frontend and backend
+
+Result Thought Process :
+
+
+Because "creative" can mean many things (e.g., 3D graphics, brutalist design, complex animations), and "backend" implies functionality (databases, auth, APIs), 
+a generic prompt often yields generic results. Here are three types of prompts ranging from a fill-in-the-blank template to a specific, high-end example.
+
+Option 1: The "Master Template" (Best for Custom Ideas)
+Copy and paste this, but fill in the bracketed [ ] sections with your specific requirements.
+
+Act as a Senior Full-Stack Developer and Award-Winning UI/UX Designer.
+I want you to help me design and code a full-stack web application for a [Insert Project Idea, e.g., Digital Art Marketplace / Interactive Music Portfolio].
+
+-------------Option 1-----------------
+1. Tech Stack:
+Frontend: [Framework, e.g., Next.js 14 / React / Vue] using [Styling, e.g., Tailwind CSS / Framer Motion / GSAP].
+Backend: [Runtime, e.g., Node.js / Python / Go] with [Database, e.g., PostgreSQL via Prisma / MongoDB / Supabase].
+Features: User Authentication (e.g., Clerk/NextAuth), CMS capabilities, and real-time data fetching.
+
+2. Visual Style (Creative Direction):
+Aesthetic: [e.g., Cyberpunk / Minimalist Swiss / Glassmorphism / Neo-Brutalism].
+Key Creative Elements: Use heavy scroll animations, custom cursor interactions, and parallax effects. The design should feel fluid and "alive," not static.
+Color Palette: [e.g., Deep void black with neon acid green and purple accents].
+
+3. Backend Architecture:
+Design a robust schema for [e.g., Users, Products, Transactions].
+Create secure API endpoints for [e.g., CRUD operations, File uploads].
+
+4. Output Requirement:
+Please start by providing the Project Architecture & File Structure. After I approve the structure, generate the code for the core components (Frontend Page + Backend API Route) step-by-step.
+
+-------------Option 2-----------------
+Option 2: The "Creative Portfolio" Example (Concrete & Ready to Use)
+Use this prompt if you want to build a highly creative portfolio site with a working backend to manage projects.
+
+Act as a Full-Stack Creative Developer.
+Build a 3D interactive portfolio website where the background reacts to mouse movement.
+
+Frontend Specification:
+
+Use Next.js (App Router) and Tailwind CSS.
+Use Three.js or React Three Fiber for a background particle system that flows based on cursor position.
+Use Framer Motion for smooth page transitions and scroll reveal animations.
+The UI should be a "Bento Grid" layout for displaying projects.
+Backend Specification:
+
+Use Supabase (PostgreSQL) as the backend.
+Create a database schema called projects with fields: id, title, description, image_url, tags, and live_link.
+Create an API route (Server Action) in Next.js to fetch these projects dynamically.
+Execution Plan:
+
+Define the SQL schema for the database.
+Set up the Three.js background component.
+Build the Project Gallery component that fetches data from the backend API.
+Implement a scroll-triggered animation for the project cards.
+
+-------------Option 3-----------------
+Option 3: The "AI Web App" Example (Trendy & Modern)
+Use this prompt if you want to build an AI-wrapper or SaaS-style app with a clean, modern backend.
+
+Act as a Technical Lead and Product Designer.
+
+I want to build a web application called "DreamCatcher," an AI-powered mood board generator.
+
+Frontend:
+
+Framework: React with TypeScript.
+Library: shadcn/ui for the component library (clean, accessible, modern).
+Creative Twist: Implement a "liquid gradient" background that shifts colors slowly using CSS keyframes.
+Layout: A central input stage that transforms into a masonry grid of generated images.
+Backend:
+
+Framework: Express.js (Node.js).
+Database: MongoDB (Mongoose) to store user sessions and generated boards.
+Integration: Integrate the OpenAI API (DALL-E 3) to generate images based on user prompts.
+Tasks:
+
+Write the backend Express server code to handle the prompt generation and save results to MongoDB.
+Write the React frontend code to consume this API, featuring a loading state with a custom skeleton animation.
+Ensure the code is modular and separated into components/, services/, and utils/.
+Tips for getting the best code from these prompts:
+Ask for the Structure First: LLMs (Large Language Models) often lose context if you ask for a whole site in one message. Ask for the Folder Structure first, approve it, and then ask for the code file by file.
+Specify "Strict" modes: If the code looks messy, add: "Use strict TypeScript types and ensure all components are server-side rendered by default."
+Ask for Libraries, not just code: Instead of saying "make it move," say "Use GSAP (GreenSock) for the animation." This ensures the AI uses powerful, professional libraries rather than writing buggy custom CSS.
+
+
+
+Send a Message
+Z.ai - Free AI Chatbot & Agent powered by GLM-5 & GLM-4.7
