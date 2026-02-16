@@ -1,0 +1,15 @@
+Prompt: 
+"Buatkan saya aplikasi web full-stack lengkap untuk Sistem Manajemen Hotel (Hotel Management System / HMS) dengan dua antarmuka utama: Tampilan Publik (Reservasi Tamu) dan Dasbor Admin (Manajemen Hotel).
+Sesi 1: Desain & Struktur Dasar
+Desain: Gunakan tema yang profesional dan clean (bersih) dengan warna dominan Teal (biru kehijauan) dan Putih. Pastikan tata letak responsif, menggunakan kartu data dengan border radius halus dan navigasi samping yang compact (untuk Dasbor Admin).
+Struktur Database Inti: Buatkan simulasi database dengan tiga koleksi/tabel: Rooms (ID, Nomor Kamar, Tipe, Harga, Status [Available/Booked]), Guests (Nama, Email, Telepon), dan Bookings (ID Reservasi, ID Kamar, ID Tamu, Check-in Date, Check-out Date, Total Biaya, Status [Confirmed/Canceled]).
+Sesi 2: Fungsionalitas Inti - Reservasi (Tampilan Publik)
+Tampilan utama harus memiliki formulir Pencarian Ketersediaan Kamar (Check-in Date dan Check-out Date).
+Tampilkan daftar kamar yang tersedia setelah pencarian, lengkap dengan detail (Harga dan Tipe).
+Sertakan tombol 'Pesan Sekarang' yang mengarah ke formulir booking sederhana.
+Sesi 3: Fungsionalitas Manajemen (Dasbor Admin)
+Buatkan Dasbor Ringkasan yang menampilkan 3 metrik utama: Total Kamar Terisi, Kamar Tersedia Hari Ini, dan Pendapatan Bulan Ini (simulasi).
+Sediakan halaman Kelola Kamar (Admin): Tampilkan tabel semua kamar (Rooms) dan fungsionalitas simulasi CRUD (Create, Read, Update, Delete) untuk menambah atau mengubah detail kamar.
+Sediakan halaman Daftar Reservasi (Admin): Tampilkan semua Bookings dalam tabel, dengan opsi untuk mengubah Status Reservasi (misalnya dari Confirmed ke Checked-In).
+Teknologi: Pastikan output kode dipisahkan secara logis antara front-end dan struktur back-end (JSON/SQLite).
+ 
